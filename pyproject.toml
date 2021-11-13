@@ -5,6 +5,9 @@ description = "Lisp interpreter implemented in Python"
 authors = ["otherJL0 <jonathanglopez@gmail.com>"]
 license = "MIT"
 
+[tool.poetry.scripts]
+lispy = "lispy:main"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 
