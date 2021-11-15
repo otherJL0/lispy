@@ -11,8 +11,8 @@ def evaluate(line: str):
 
 
 def main():
-    Language.build_library("data/elisp.so", ["tree-sitter-elisp"])
-    ELISP_LANGUAGE = Language("data/elisp.so", "elisp")
+    Language.build_library("build/elisp.so", ["tree-sitter-elisp"])
+    ELISP_LANGUAGE = Language("build/elisp.so", "elisp")
     parser = Parser()
     parser.set_language(ELISP_LANGUAGE)
     session: PromptSession[str] = PromptSession()
