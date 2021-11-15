@@ -1,0 +1,3 @@
+[submodule "tree-sitter-elisp"]
+	path = tree-sitter-elisp
+	url = https://github.com/Wilfred/tree-sitter-elisp
